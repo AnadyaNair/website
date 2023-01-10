@@ -3,11 +3,10 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+
 // import profilePic from "../public/ellipse.png";
-import localFont from "@next/font/local";
 
 // Font files can be colocated inside of `pages`
-const myFont = localFont({ src: "CircularStd-Medium.otf" });
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/ellipse.png" />
       </Head>
       <main className={styles.main}>
-        <div className={myFont.flexcontainer}>
+        <div className={"flexcontainer"}>
           <div className="one">
             Often, <u>@AnadyaNair</u>.
           </div>
